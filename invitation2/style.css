@@ -1,0 +1,97 @@
+/* Reset some default styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Body and Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto; /* Center the container */
+    padding: 0 20px; /* Add some padding */
+}
+
+/* Header */
+header {
+    background: #007BFF;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigation */
+nav {
+    background: #0056b3;
+    display: flex;
+    justify-content: center; /* Center nav items */
+    padding: 10px 0;
+}
+
+nav a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background: #004494;
+}
+
+/* Main Content Area */
+main {
+    padding: 20px;
+}
+
+/* Responsive Grid */
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Space between grid items */
+}
+
+.grid-item {
+    flex: 1 1 300px; /* Flex item takes full width on small screens and 300px on larger screens */
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px 0;
+    background: #007BFF;
+    color: white;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column; /* Stack navigation links on smaller screens */
+    }
+
+    .grid {
+        flex-direction: column; /* Stack grid items on smaller screens */
+    }
+
+    .grid-item {
+        margin-bottom: 20px; /* Add space between stacked items */
+    }
+}
+
+@media (max-width: 480px) {
+    nav a {
+        padding: 10px; /* Reduce padding on smaller screens */
+    }
+}
