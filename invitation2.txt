@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farewell Invitation - ABWA College</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #fff;
+            background: #64a7d4; /* Light blue background */
+        }
+
+        h1,
+        h2,
+        h3,
+        p {
+            margin: 0;
+            padding: 10px;
+        }
+
+        /* Color Palette */
+        :root {
+            --primary-color: #32719c; /* Blue */
+            --secondary-color: #32719c; /* Ferozy */
+        }
+
+        /* Layout */
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .section {
+            text-align: center;
+            padding: 50px 20px;
+            background: var(--primary-color);
+            border-radius: 10px;
+            margin-bottom: 20px;
+            color: #D6F1FF;
+        }
+
+        .section img {
+            max-width: 80%;
+            height: auto;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+
+        .highlight {
+            background: var(--secondary-color);
+            color: #333;
+            border-radius: 10px;
+        }
+
+        .menu,
+        .organizers {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .menu-item,
+        .organizer {
+            margin: 10px;
+            padding: 10px;
+            background: #ffffff;
+            color: #333;
+            border-radius: 10px;
+            max-width: 200px;
+            text-align: center;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .section {
+                padding: 30px 10px;
+            }
+
+            .menu,
+            .organizers {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .menu-item,
+            .organizer {
+                max-width: 90%;
+            }
+
+            h1,
+            h2 {
+                font-size: 1.8em;
+            }
+
+            h3,
+            p {
+                font-size: 1em;
+            }
+
+            .section img {
+                max-width: 90%;
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1,
+            h2 {
+                font-size: 1.5em;
+            }
+
+            h3,
+            p {
+                font-size: 0.9em;
+            }
+        }
+
+        /* Gallery Styles */
+        .gallery {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .gallery div {
+            margin: 15px;
+            border: 2px solid #D6F1FF;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s;
+        }
+
+        .gallery div:hover {
+            transform: scale(1.05);
+        }
+
+        /* Menu Section */
+        .menu-section {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 40px;
+            background-color: #001f3f;
+            border-radius: 15px;
+            color: #fff;
+            flex-wrap: wrap;
+        }
+
+        .menu-item-container {
+            width: 30%;
+            text-align: center;
+            padding: 20px;
+            position: relative;
+            margin-bottom: 20px;
+        }
+
+        /* Buttons */
+        button {
+            background-color: rgba(255, 255, 255, 0.8);
+            border: none;
+            cursor: pointer;
+            padding: 10px;
+            border-radius: 50%;
+            font-size: 18px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- College Section -->
+    <section class="section">
+        <h1 style="font-size: 2.5em; font-style: oblique; margin-bottom: 20px; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">ABWA Medical College</h1>
+        <img src="abwaa.jpg" alt="ABWA College">
+        <h1 style="font-size: 2.5em; font-style: oblique; margin-bottom: 20px; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">ABWA Golden GOOD-BYE</h1>
+        <p style="text-align: center; margin-bottom: 30px; font-size: 1.2em; line-height: 1.6; padding: 0 20px; background-color: rgba(255, 255, 255, 0.1); border-radius: 10px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);">Celebrating the Dreamers and Doers of 2025 – The Future Starts Here!</p>
+    </section>
+
+    <!-- 2024 Seniors Section -->
+    <section class="section highlight">
+        <h1 style="font-size: 2.5em; font-style: oblique; margin-bottom: 20px; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">"Here's to the Doctors of 2024"</h1>
+        <h2 style="margin-bottom: 30px; font-size: 1.2em; line-height: 1.6; padding: 0 20px; background-color: rgba(255, 255, 255, 0.1); border-radius: 10px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);">The Healers of Tomorrow, fueled by passion and guided by purpose. May your journey ahead be filled with compassion, resilience, and lives transformed. The world is in the best hands with you.</h2>
+        <img src="batch2025.jpg" alt="2024 Seniors">
+    </section>
+
+    <!-- Skits and Dramas Highlights -->
+    <section class="section" style="padding: 20px; background-color: #001f3f;">
+        <h2 style="font-size: 2.5em; font-style: oblique; margin-bottom: 20px; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Skits & Dramas</h2>
+        <p style="margin-bottom: 30px; font-size: 1.2em; line-height: 1.6; padding: 0 20px; background-color: rgba(255, 255, 255, 0.1); border-radius: 10px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);">Prepare for a night where the spotlight shines on laughter, surprises, and unforgettable performances! The stage is set, and the excitement is real; don’t miss out on the ultimate farewell celebration!</p>
+        <div class="gallery">
+            <div>
+                <video style="width: 100%; height: 300px; object-fit: cover;" controls>
+                    <source src="preps.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div>
+                <video style="width: 100%; height: 300px; object-fit: cover;" controls>
+                    <source src="skits.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </section>
+
+    <!-- Venue -->
+    <section style="background-color: #001f3f; padding: 40px; text-align: center; color: #fff;">
+        <h2 style="font-size: 2.5em; font-style: oblique; margin-bottom: 20px; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Catch the Excitement!</h2>
+        <h3 style="margin-bottom: 30px; font-size: 1.2em; line-height: 1.6; padding: 0 20px; background-color: rgba(255, 255, 255, 0.1); border-radius: 10px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);">Venue: Victorian Executive Marquee</h3>
+        <p style="margin-bottom: 30px; font-size: 1.2em; line-height: 1.6; padding: 0 20px; background-color: rgba(255, 255, 255, 0.1); border-radius: 10px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);">Time: 6 PM - 10 PM</p>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="menu-section">
+        <h2 style="font-size: 2.5em; font-style: oblique; margin-bottom: 20px; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Menu</h2>
+        <div class="menu">
+            <div class="menu-item">
+                <h3>Starters</h3>
+                <ul>
+                    <li>Spring Rolls</li>
+                    <li>Stuffed Mushrooms</li>
+                    <li>Bruschetta</li>
+                </ul>
+            </div>
+            <div class="menu-item">
+                <h3>Main Course</h3>
+                <ul>
+                    <li>Grilled Chicken</li>
+                    <li>Pasta Primavera</li>
+                    <li>Vegetable Stir Fry</li>
+                </ul>
+            </div>
+            <div class="menu-item">
+                <h3>Desserts</h3>
+                <ul>
+                    <li>Chocolate Mousse</li>
+                    <li>Fruit Tart</li>
+                    <li>Cheesecake</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Organizers Section -->
+    <section class="organizers">
+        <h2 style="font-size: 2.5em; font-style: oblique; margin-bottom: 20px; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Organizers</h2>
+        <div class="organizers">
+            <div class="organizer">Dr. Emma<br>Head Organizer</div>
+            <div class="organizer">Dr. John<br>Event Coordinator</div>
+            <div class="organizer">Dr. Sarah<br>Logistics</div>
+        </div>
+    </section>
+
+    <!-- RSVP Section -->
+    <section class="section" style="text-align: center; background-color: #32719c;">
+        <h2 style="font-size: 2.5em; font-style: oblique; margin-bottom: 20px; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">RSVP</h2>
+        <p style="font-size: 1.2em; line-height: 1.6; padding: 0 20px; background-color: rgba(255, 255, 255, 0.1); border-radius: 10px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);">Please confirm your attendance by clicking the button below!</p>
+        <button onclick="alert('Thank you for RSVP! We look forward to seeing you!')">RSVP Here</button>
+    </section>
+</body>
+
+</html>
